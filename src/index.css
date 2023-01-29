@@ -1,7 +1,6 @@
 body {
   padding: 0;
   margin: 0;
-  color-scheme: dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #161b21;
   overflow: hidden;
@@ -67,9 +66,10 @@ input {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #242d37;
   cursor: pointer;
   transition: border-color 0.25s;
+  color: aliceblue;
 }
 button:hover,
 input:focus {
@@ -83,19 +83,6 @@ input:focus-visible {
 }
 button:active {
   border-color: #646cff;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
 }
 
 /* width utlity */

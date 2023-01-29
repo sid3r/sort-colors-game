@@ -5,10 +5,7 @@ A ReactJS based puzzle game inspired by games like "Water Sort Puzzle", "Ball So
 ![color-sort-puzzle-previex](public/preview.png)
 
 ```
-git clone this repository
-```
-
-```
+git clone https://github.com/sid3r/sort-colors-game.git
 npm install
 npm run dev
 ```

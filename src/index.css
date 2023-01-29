@@ -54,7 +54,7 @@ a:hover {
 h1 {
   font-size: 1.8em;
   text-transform: uppercase;
-  color: rgb(136, 136, 136);
+  color: antiquewhite;
   line-height: 1.1;
 }
 
@@ -110,7 +110,7 @@ button:active {
 .bottles-container {
   padding-top: 100px;
   display: flex;
-  gap: 40px;
+  gap: 35px;
   position: relative;
 }
 /* bottle */

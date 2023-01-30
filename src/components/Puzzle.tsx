@@ -98,7 +98,10 @@ function Puzzle() {
     if (firstLaunched) {
       initNewGame();
       setFirstLaunched(false);
+      console.log("use effect triggered");
     }
+    // clean up
+    return () => {};
   });
   return (
     <div className="app-wrapper">
